@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1 className={cn("text-4xl font-bold")}>ArtisAI</h1>
-      <UserButton afterSignOutUrl="/" />
+      <UserButton showName afterSwitchSessionUrl="/" />
     </div>
   );
 };
